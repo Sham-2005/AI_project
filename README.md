@@ -1,21 +1,21 @@
 1. Breadth First Search (BFS)
-BFS(Graph, Start)
 
-Create Queue
-Create Visited Set
-
-Add Start to Queue
-Mark Start as Visited
-
-While Queue is not Empty
-    Remove Front Node
-    Print Node
-
-    For each Neighbor of Node
-        If Neighbor not Visited
-            Mark Neighbor as Visited
-            Add Neighbor to Queue
-End While
+        BFS(Graph, Start)
+        Create Queue
+        Create Visited Set
+        
+        Add Start to Queue
+        Mark Start as Visited
+        
+        While Queue is not Empty
+            Remove Front Node
+            Print Node
+        
+            For each Neighbor of Node
+                If Neighbor not Visited
+                    Mark Neighbor as Visited
+                    Add Neighbor to Queue
+        End While
 2. Depth First Search (DFS)
 DFS(Node)
 
