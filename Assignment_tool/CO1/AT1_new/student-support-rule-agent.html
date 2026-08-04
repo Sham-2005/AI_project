@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Support Rule-Based AI Agent</title>
+  <style>
+    :root {
+      --bg: #eef3ff;
+      --panel: rgba(255, 255, 255, 0.78);
+      --panel-solid: #ffffff;
+      --text: #142033;
+      --muted: #657089;
+      --line: rgba(98, 116, 156, 0.24);
+      --primary: #6c3df4;
+      --primary-dark: #5128ca;
+      --blue: #1976d2;
+      --teal: #00a6a6;
+      --success: #1f9d62;
+      --warning: #d88a12;
+      --danger: #d94d63;
+      --shadow: 0 18px 50px rgba(38, 52, 90, 0.16);
+      --radius: 8px;
+      --sidebar: rgba(20, 32, 51, 0.86);
+    }
+
+    [data-theme="dark"] {
+      --bg: #101727;
+      --panel: rgba(25, 35, 56, 0.78);
+      --panel-solid: #182338;
+      --text: #f3f7ff;
+      --muted: #aab6cf;
+      --line: rgba(213, 224, 255, 0.18);
+      --primary: #8d6bff;
+      --primary-dark: #7455dc;
+      --blue: #64a8ff;
+      --teal: #38d4cf;
+      --sidebar: rgba(8, 13, 24, 0.9);
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.32);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(108, 61, 244, 0.18), transparent 32rem),
+        radial-gradient(circle at bottom right, rgba(0, 166, 166, 0.18), transparent 30rem),
+        var(--bg);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 22px 18px;
+      color: #fff;
+      background: var(--sidebar);
+      backdrop-filter: blur(18px);
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, var(--primary), var(--teal));
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+    }
+
+    .brand strong {
+      display: block;
+      line-height: 1.15;
+    }
+
+    .brand span {
+      display: block;
+      margin-top: 3px;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 12px;
+    }
+
+    .nav {
+      display: grid;
+      gap: 8px;
+    }
+
+    .nav button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      min-height: 42px;
+      padding: 10px 12px;
+      color: rgba(255, 255, 255, 0.82);
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      background: transparent;
+      cursor: pointer;
+      text-align: left;
+      transition: 160ms ease;
+    }
+
+    .nav button:hover,
+    .nav button.active {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.14);
+    }
+
+    .sidebar-note {
+      position: absolute;
+      right: 18px;
+      bottom: 18px;
+      left: 18px;
+      padding: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .main {
+      padding: 24px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .topbar h1 {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 34px);
+      letter-spacing: 0;
+    }
+
+    .topbar p {
+      margin: 4px 0 0;
+      color: var(--muted);
+    }
+
+    .mode-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 42px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      color: var(--text);
+      background: var(--panel);
+      box-shadow: 0 8px 24px rgba(31, 45, 74, 0.08);
+      cursor: pointer;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .stat-card,
+    .welcome,
+    .chat-shell,
+    .info-panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .stat-card {
+      padding: 16px;
+      min-height: 104px;
+    }
+
+    .stat-card .icon {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      margin-bottom: 12px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--blue));
+    }
+
+    .stat-card strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 24px;
+    }
+
+    .stat-card span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.7fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .welcome {
+      display: grid;
+      align-content: center;
+      min-height: 510px;
+      padding: 36px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .welcome::after {
+      content: "";
+      position: absolute;
+      right: -90px;
+      bottom: -95px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: rgba(25, 118, 210, 0.14);
+    }
+
+    .welcome h2 {
+      position: relative;
+      margin: 0;
+      max-width: 680px;
+      font-size: clamp(32px, 6vw, 62px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .welcome p {
+      position: relative;
+      max-width: 560px;
+      margin: 18px 0 28px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.55;
+    }
+
+    .primary-btn,
+    .secondary-btn,
+    .quick-btn {
+      border: 0;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+    }
+
+    .primary-btn {
+      position: relative;
+      width: fit-content;
+      min-height: 48px;
+      padding: 0 20px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--blue));
+      box-shadow: 0 14px 26px rgba(80, 55, 200, 0.22);
+      font-weight: 700;
+    }
+
+    .primary-btn:hover,
+    .secondary-btn:hover,
+    .quick-btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .chat-shell {
+      display: none;
+      min-height: 510px;
+      overflow: hidden;
+    }
+
+    .chat-shell.active {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    .chat-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    .agent {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .agent-avatar {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--teal));
+    }
+
+    .agent strong {
+      display: block;
+    }
+
+    .agent span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .secondary-btn {
+      min-height: 38px;
+      padding: 0 12px;
+      color: var(--text);
+      border: 1px solid var(--line);
+      background: var(--panel-solid);
+    }
+
+    .messages {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 18px;
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+
+    .bubble {
+      width: fit-content;
+      max-width: min(78%, 620px);
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      line-height: 1.48;
+      white-space: pre-line;
+      animation: rise 220ms ease both;
+    }
+
+    .bot {
+      align-self: flex-start;
+      color: var(--text);
+      background: var(--panel-solid);
+      border: 1px solid var(--line);
+    }
+
+    .user {
+      align-self: flex-end;
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--blue));
+    }
+
+    .quick-replies {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      padding: 0 18px 18px;
+    }
+
+    .quick-btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      min-height: 52px;
+      padding: 11px 13px;
+      border: 1px solid var(--line);
+      color: var(--text);
+      background: var(--panel-solid);
+      box-shadow: 0 8px 20px rgba(31, 45, 74, 0.08);
+      text-align: left;
+    }
+
+    .quick-btn:focus-visible,
+    .secondary-btn:focus-visible,
+    .primary-btn:focus-visible,
+    .mode-toggle:focus-visible,
+    input:focus-visible {
+      outline: 3px solid rgba(0, 166, 166, 0.35);
+      outline-offset: 2px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 10px;
+      padding: 14px 18px 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .input-row input {
+      min-width: 0;
+      flex: 1;
+      min-height: 44px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      color: var(--text);
+      background: var(--panel-solid);
+    }
+
+    .info-panel {
+      padding: 18px;
+    }
+
+    .info-panel h3 {
+      margin: 0 0 12px;
+      font-size: 17px;
+    }
+
+    .rule-box {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.34);
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      white-space: pre-line;
+    }
+
+    .flow {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .flow div {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.24);
+      font-size: 13px;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 980px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        height: auto;
+        padding: 14px;
+      }
+
+      .brand {
+        margin-bottom: 12px;
+      }
+
+      .nav {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .sidebar-note {
+        position: static;
+        margin-top: 12px;
+      }
+
+      .stats,
+      .workspace {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .workspace {
+        align-items: stretch;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .main {
+        padding: 14px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .stats,
+      .workspace,
+      .quick-replies,
+      .nav {
+        grid-template-columns: 1fr;
+      }
+
+      .welcome {
+        min-height: 430px;
+        padding: 24px;
+      }
+
+      .chat-header,
+      .input-row {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .header-actions {
+        width: 100%;
+      }
+
+      .header-actions button,
+      .input-row button {
+        flex: 1;
+      }
+
+      .bubble {
+        max-width: 94%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">🎓</div>
+        <div>
+          <strong>Student Support</strong>
+          <span>Rule-Based AI Agent</span>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Dashboard">
+        <button class="active" type="button">⌂ Home</button>
+        <button type="button">▣ Student Services</button>
+        <button type="button">◷ Chat History</button>
+        <button type="button">? Help</button>
+        <button type="button">⚙ Settings</button>
+        <button type="button">ⓘ About</button>
+      </nav>
+
+      <div class="sidebar-note">
+        TARS-ready concept: menu choices trigger predefined IF-THEN rules with no machine learning, LLM, or API integration.
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1>Student Support Rule-Based AI Agent</h1>
+          <p>Expert-system style assistant for academic and campus services.</p>
+        </div>
+        <button class="mode-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">◐ Dark Mode</button>
+      </header>
+
+      <section class="stats" aria-label="Demo statistics">
+        <article class="stat-card">
+          <div class="icon">👥</div>
+          <strong id="studentsCount">128</strong>
+          <span>Students Assisted Today</span>
+        </article>
+        <article class="stat-card">
+          <div class="icon">✓</div>
+          <strong id="queryCount">2,480</strong>
+          <span>Total Queries Answered</span>
+        </article>
+        <article class="stat-card">
+          <div class="icon">⚡</div>
+          <strong>0.8s</strong>
+          <span>Average Response Time</span>
+        </article>
+        <article class="stat-card">
+          <div class="icon">★</div>
+          <strong>96%</strong>
+          <span>Success Rate</span>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <div>
+          <section class="welcome" id="welcome">
+            <h2>🎓 Welcome to Student Support Assistant</h2>
+            <p>Get instant answers to your academic and campus-related questions.</p>
+            <button class="primary-btn" id="startChat" type="button">Start Chat</button>
+          </section>
+
+          <section class="chat-shell" id="chatShell" aria-label="Chat interface">
+            <div class="chat-header">
+              <div class="agent">
+                <div class="agent-avatar">AI</div>
+                <div>
+                  <strong>Student Support Assistant</strong>
+                  <span>Rule-based decision engine active</span>
+                </div>
+              </div>
+              <div class="header-actions">
+                <button class="secondary-btn" id="mainMenuBtn" type="button">Main Menu</button>
+                <button class="secondary-btn" id="endChatBtn" type="button">End Chat</button>
+              </div>
+            </div>
+
+            <div class="messages" id="messages" aria-live="polite"></div>
+            <div class="quick-replies" id="quickReplies"></div>
+            <form class="input-row" id="textForm">
+              <input id="textInput" autocomplete="off" placeholder="Type a keyword, register number, or department..." />
+              <button class="primary-btn" type="submit">Send</button>
+            </form>
+          </section>
+        </div>
+
+        <aside class="info-panel">
+          <h3>Rule Engine Logic</h3>
+          <div class="rule-box" id="ruleBox">IF user selects a service
+THEN display matching predefined response
+
+ELSE show fallback menu</div>
+
+          <h3 style="margin-top: 18px;">Conversation Flow</h3>
+          <div class="flow">
+            <div>Start</div>
+            <div>Welcome</div>
+            <div>Choose Service</div>
+            <div>Show Information</div>
+            <div>Need more help?</div>
+            <div>Yes → Main Menu | No → Thank You</div>
+          </div>
+        </aside>
+      </section>
+
+      <footer>Powered by TARS Rule-Based AI Agent</footer>
+    </main>
+  </div>
+
+  <script>
+    const messages = document.getElementById("messages");
+    const quickReplies = document.getElementById("quickReplies");
+    const welcome = document.getElementById("welcome");
+    const chatShell = document.getElementById("chatShell");
+    const ruleBox = document.getElementById("ruleBox");
+    const textInput = document.getElementById("textInput");
+
+    const mainServices = [
+      { label: "📚 Course Registration", key: "registration" },
+      { label: "🗓 Timetable", key: "timetable" },
+      { label: "📝 Examination", key: "examination" },
+      { label: "📊 Attendance", key: "attendance" },
+      { label: "🏫 Campus Services", key: "campus" },
+      { label: "❓ Frequently Asked Questions", key: "faq" },
+      { label: "📞 Contact Office", key: "contact" }
+    ];
+
+    const rules = {
+      registration: {
+        rule: "IF user selects Course Registration\nTHEN display registration process",
+        response: "Course Registration Process:\n1. Login to the student portal.\n2. Open Academic Services.\n3. Select Course Registration.\n4. Choose eligible subjects.\n5. Submit and download confirmation."
+      },
+      timetable: {
+        rule: "IF user selects Timetable\nTHEN ask for department\n\nIF department == AI&DS\nTHEN display AI&DS timetable",
+        response: "Please choose your department to view the timetable.",
+        next: [
+          { label: "AI&DS", key: "dept_aids" },
+          { label: "CSE", key: "dept_cse" },
+          { label: "ECE", key: "dept_ece" }
+        ]
+      },
+      examination: {
+        rule: "IF user selects Examination\nTHEN display exam rules and schedule details",
+        response: "Examination Information:\n- Hall tickets are available one week before exams.\n- Internal marks can be checked in the student portal.\n- Bring ID card and hall ticket to every exam."
+      },
+      attendance: {
+        rule: "IF user selects Attendance\nTHEN ask for Register Number\n\nIF register number is entered\nTHEN display demo attendance status",
+        response: "Please enter your register number to check demo attendance status.",
+        inputMode: "attendance"
+      },
+      campus: {
+        rule: "IF user selects Campus Services\nTHEN show campus service menu\n\nIF user selects Library\nTHEN display library timings",
+        response: "Choose a campus service.",
+        next: [
+          { label: "📖 Library", key: "library" },
+          { label: "🚌 Transport", key: "transport" },
+          { label: "🍽 Canteen", key: "canteen" }
+        ]
+      },
+      faq: {
+        rule: "IF user selects FAQ\nTHEN display frequent student questions",
+        response: "Frequently Asked Questions:\nQ: Where can I get my ID card?\nA: Contact the administration office.\n\nQ: How do I reset my portal password?\nA: Use the Forgot Password option or contact IT support.\n\nQ: Where are notices posted?\nA: On the student portal and department notice board."
+      },
+      contact: {
+        rule: "IF user selects Contact Office\nTHEN display contact information",
+        response: "Contact Office:\nAcademic Office: academic.office@college.edu\nExam Cell: exam.cell@college.edu\nHelp Desk: +91 98765 43210\nOffice Hours: 9:00 AM - 4:30 PM"
+      },
+      dept_aids: {
+        rule: "IF department == AI&DS\nTHEN display AI&DS timetable",
+        response: "AI&DS Timetable:\nMonday: Data Structures, Mathematics, Python Lab\nTuesday: AI Fundamentals, DBMS, English\nWednesday: Statistics, Data Structures Lab, Mentoring"
+      },
+      dept_cse: {
+        rule: "IF department == CSE\nTHEN display CSE timetable",
+        response: "CSE Timetable:\nMonday: Programming, Discrete Mathematics, Web Lab\nTuesday: Computer Networks, DBMS, Library Hour\nWednesday: Operating Systems, Programming Lab"
+      },
+      dept_ece: {
+        rule: "IF department == ECE\nTHEN display ECE timetable",
+        response: "ECE Timetable:\nMonday: Digital Electronics, Signals, Lab\nTuesday: Communication Systems, Mathematics, Seminar\nWednesday: Microprocessors, Circuits Lab"
+      },
+      library: {
+        rule: "IF user selects Library\nTHEN display library timings",
+        response: "Library Timings:\nMonday to Friday: 8:30 AM - 6:00 PM\nSaturday: 9:00 AM - 1:00 PM\nSunday: Closed"
+      },
+      transport: {
+        rule: "IF user selects Transport\nTHEN display bus service information",
+        response: "Transport Services:\nBus routes are available from the transport office. Students must carry bus passes while boarding."
+      },
+      canteen: {
+        rule: "IF user selects Canteen\nTHEN display canteen timings",
+        response: "Canteen Timings:\nBreakfast: 8:00 AM - 10:00 AM\nLunch: 12:00 PM - 2:00 PM\nSnacks: 3:30 PM - 5:00 PM"
+      }
+    };
+
+    let currentInputMode = null;
+
+    function addMessage(text, sender = "bot") {
+      const bubble = document.createElement("div");
+      bubble.className = `bubble ${sender}`;
+      bubble.textContent = text;
+      messages.appendChild(bubble);
+      messages.scrollTop = messages.scrollHeight;
+    }
+
+    function setQuickReplies(items) {
+      quickReplies.innerHTML = "";
+      items.forEach((item) => {
+        const button = document.createElement("button");
+        button.className = "quick-btn";
+        button.type = "button";
+        button.textContent = item.label;
+        button.addEventListener("click", () => handleQuickReply(item));
+        quickReplies.appendChild(button);
+      });
+    }
+
+    function handleQuickReply(item) {
+      if (item.key === "main_menu") {
+        addMessage(item.label, "user");
+        showMainMenu();
+        return;
+      }
+
+      if (item.key === "end_chat") {
+        endConversation(item.label);
+        return;
+      }
+
+      selectRule(item.key, item.label);
+    }
+
+    function showMainMenu() {
+      currentInputMode = null;
+      ruleBox.textContent = "IF user selects a service\nTHEN display matching predefined response\n\nELSE show fallback menu";
+      addMessage("Hello! 👋\nI am your Student Support Assistant.\nPlease choose a service below.");
+      setQuickReplies(mainServices);
+    }
+
+    function selectRule(key, label) {
+      const selected = rules[key];
+      addMessage(label.replace(/^[^\w?]+ /, ""), "user");
+
+      if (!selected) {
+        fallback();
+        return;
+      }
+
+      ruleBox.textContent = selected.rule;
+      currentInputMode = selected.inputMode || null;
+      window.setTimeout(() => {
+        addMessage(selected.response);
+        if (selected.next) {
+          setQuickReplies(selected.next);
+        } else {
+          setQuickReplies([
+            { label: "Yes, main menu", key: "main_menu" },
+            { label: "No, end chat", key: "end_chat" }
+          ]);
+        }
+      }, 180);
+    }
+
+    function fallback() {
+      currentInputMode = null;
+      ruleBox.textContent = "ELSE\nDisplay fallback message and available services";
+      addMessage("Sorry, I couldn't understand your request.\nPlease select one of the available services.");
+      setQuickReplies(mainServices);
+    }
+
+    function handleTextInput(value) {
+      const text = value.trim();
+      if (!text) return;
+
+      addMessage(text, "user");
+
+      if (currentInputMode === "attendance") {
+        ruleBox.textContent = "IF user selects Attendance\nTHEN ask for Register Number\n\nIF register number is entered\nTHEN display demo attendance status";
+        addMessage(`Attendance Status for Register Number ${text}:\nOverall Attendance: 87%\nStatus: Eligible for examination\nNote: This is demo rule-based output.`);
+        currentInputMode = null;
+        setQuickReplies([
+          { label: "Yes, main menu", key: "main_menu" },
+          { label: "No, end chat", key: "end_chat" }
+        ]);
+        return;
+      }
+
+      const normalized = text.toLowerCase();
+      const keywordMap = [
+        ["course", "registration"],
+        ["register", "registration"],
+        ["timetable", "timetable"],
+        ["exam", "examination"],
+        ["attendance", "attendance"],
+        ["campus", "campus"],
+        ["library", "library"],
+        ["faq", "faq"],
+        ["contact", "contact"],
+        ["aids", "dept_aids"],
+        ["ai&ds", "dept_aids"]
+      ];
+
+      const match = keywordMap.find(([keyword]) => normalized.includes(keyword));
+      if (match) {
+        selectRule(match[1], text);
+      } else {
+        fallback();
+      }
+    }
+
+    document.getElementById("startChat").addEventListener("click", () => {
+      welcome.classList.add("hidden");
+      chatShell.classList.add("active");
+      messages.innerHTML = "";
+      showMainMenu();
+    });
+
+    document.getElementById("mainMenuBtn").addEventListener("click", showMainMenu);
+
+    document.getElementById("endChatBtn").addEventListener("click", () => {
+      endConversation("No, end chat");
+    });
+
+    function endConversation(label) {
+      currentInputMode = null;
+      addMessage(label, "user");
+      addMessage("Thank you for using Student Support Assistant. Have a great day!");
+      setQuickReplies([{ label: "Restart Conversation", key: "main_menu" }]);
+    }
+
+    document.getElementById("textForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+      handleTextInput(textInput.value);
+      textInput.value = "";
+    });
+
+    document.getElementById("themeToggle").addEventListener("click", () => {
+      const dark = document.body.dataset.theme !== "dark";
+      document.body.dataset.theme = dark ? "dark" : "light";
+      document.getElementById("themeToggle").textContent = dark ? "☀ Light Mode" : "◐ Dark Mode";
+    });
+
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest(".quick-btn");
+      if (!button) return;
+      const text = button.textContent;
+      if (text === "Yes, main menu" || text === "No, end chat" || text === "Restart Conversation") return;
+    });
+  </script>
+</body>
+</html>
