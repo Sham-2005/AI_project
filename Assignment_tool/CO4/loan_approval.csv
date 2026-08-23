@@ -1,0 +1,1001 @@
+Income,CreditScore,EmploymentStatus,LoanAmount,RepaymentHistory,LoanStatus
+141958,760,Employed,805600,Good,Eligible
+35795,846,Employed,109500,Good,Eligible
+20860,552,Unemployed,217647,Good,Not Eligible
+123694,689,Self-Employed,286527,Poor,Eligible
+148106,555,Employed,485477,Average,Not Eligible
+139879,749,Employed,684947,Poor,Eligible
+130268,309,Self-Employed,602004,Good,Eligible
+96820,541,Employed,446452,Poor,Not Eligible
+74886,550,Employed,459064,Average,Not Eligible
+26265,304,Unemployed,52352,Average,Not Eligible
+102386,418,Employed,183004,Average,Not Eligible
+148214,673,Self-Employed,912881,Good,Eligible
+57194,364,Unemployed,582844,Average,Not Eligible
+107498,445,Employed,836261,Good,Eligible
+132727,523,Employed,398980,Good,Eligible
+146324,538,Employed,710858,Good,Eligible
+64131,476,Self-Employed,781478,Poor,Not Eligible
+80263,581,Self-Employed,100098,Poor,Not Eligible
+36023,362,Self-Employed,424313,Poor,Not Eligible
+61090,516,Employed,714929,Average,Not Eligible
+87221,760,Self-Employed,297199,Good,Eligible
+84820,404,Unemployed,176060,Good,Not Eligible
+20769,398,Employed,237954,Good,Not Eligible
+79735,810,Unemployed,775753,Good,Eligible
+82955,684,Self-Employed,180544,Good,Eligible
+84925,704,Self-Employed,574628,Good,Eligible
+141637,817,Employed,749309,Good,Eligible
+87969,775,Employed,656590,Poor,Eligible
+25311,736,Employed,797028,Good,Eligible
+123355,322,Employed,517243,Poor,Not Eligible
+124724,757,Employed,574426,Average,Eligible
+103104,382,Self-Employed,443574,Good,Eligible
+73707,444,Unemployed,693907,Good,Not Eligible
+105305,384,Self-Employed,518466,Good,Eligible
+48693,377,Employed,921808,Good,Not Eligible
+91932,756,Employed,674219,Average,Eligible
+147723,300,Employed,998158,Good,Eligible
+113016,350,Self-Employed,206951,Good,Eligible
+126970,745,Self-Employed,917964,Good,Eligible
+45658,748,Unemployed,892210,Poor,Not Eligible
+104478,787,Employed,612060,Average,Eligible
+142537,333,Unemployed,108478,Average,Not Eligible
+38431,647,Self-Employed,507569,Good,Not Eligible
+22747,394,Employed,601050,Average,Not Eligible
+143855,371,Self-Employed,194355,Average,Not Eligible
+79150,453,Employed,769282,Average,Not Eligible
+85725,549,Employed,744780,Poor,Not Eligible
+149981,737,Employed,892000,Good,Eligible
+104654,417,Employed,921522,Poor,Not Eligible
+55773,605,Employed,856651,Poor,Not Eligible
+139346,567,Employed,893601,Good,Eligible
+87435,353,Employed,543671,Good,Eligible
+76886,535,Employed,649253,Poor,Not Eligible
+86803,688,Employed,227912,Good,Eligible
+51551,700,Employed,225767,Good,Eligible
+136216,602,Employed,286281,Poor,Not Eligible
+31394,506,Employed,134754,Good,Not Eligible
+89092,528,Employed,652276,Good,Eligible
+23890,374,Employed,501558,Good,Not Eligible
+61606,734,Employed,557732,Good,Eligible
+116276,402,Employed,200023,Good,Eligible
+145768,721,Self-Employed,706667,Good,Eligible
+100038,605,Employed,130388,Average,Not Eligible
+107313,397,Employed,927200,Good,Not Eligible
+30627,634,Unemployed,871860,Average,Not Eligible
+28792,734,Self-Employed,289779,Average,Not Eligible
+128859,746,Unemployed,928453,Good,Eligible
+128557,607,Self-Employed,954850,Average,Not Eligible
+93969,548,Employed,256846,Good,Eligible
+63001,465,Employed,744335,Good,Not Eligible
+96552,780,Employed,182212,Good,Eligible
+43897,634,Employed,992346,Poor,Not Eligible
+88148,841,Employed,862853,Good,Eligible
+141729,405,Employed,838140,Good,Eligible
+144243,380,Employed,971134,Average,Not Eligible
+140923,432,Self-Employed,462811,Good,Eligible
+140174,437,Self-Employed,650309,Good,Eligible
+43483,483,Employed,209380,Good,Not Eligible
+144358,700,Self-Employed,94789,Average,Eligible
+68555,629,Employed,76086,Average,Not Eligible
+145436,807,Self-Employed,329003,Good,Eligible
+37159,368,Employed,581972,Good,Not Eligible
+130510,845,Unemployed,141088,Good,Eligible
+126530,352,Self-Employed,444423,Average,Not Eligible
+100077,749,Employed,620387,Good,Eligible
+55920,504,Employed,640381,Good,Not Eligible
+112067,425,Employed,210761,Good,Eligible
+87121,342,Employed,885083,Good,Not Eligible
+89479,410,Employed,588181,Good,Eligible
+109475,482,Employed,541024,Good,Eligible
+39457,394,Employed,640706,Good,Not Eligible
+86557,673,Self-Employed,175074,Average,Eligible
+97189,819,Unemployed,939497,Good,Eligible
+129109,659,Employed,180351,Poor,Eligible
+98953,580,Employed,765371,Good,Eligible
+72995,494,Employed,88635,Average,Not Eligible
+60757,494,Self-Employed,145071,Average,Not Eligible
+29692,392,Employed,515918,Good,Not Eligible
+65758,360,Unemployed,914950,Good,Not Eligible
+149425,350,Self-Employed,418377,Average,Not Eligible
+92409,702,Employed,940083,Good,Eligible
+91211,304,Employed,647093,Poor,Not Eligible
+85697,765,Self-Employed,471280,Good,Eligible
+57065,833,Self-Employed,959245,Poor,Not Eligible
+112093,704,Employed,391207,Good,Eligible
+119299,812,Employed,314598,Average,Eligible
+149293,532,Self-Employed,333022,Average,Not Eligible
+52606,823,Employed,232170,Average,Eligible
+147791,645,Unemployed,243226,Good,Not Eligible
+31534,345,Employed,194063,Average,Not Eligible
+114663,845,Employed,642632,Good,Eligible
+60397,377,Self-Employed,941378,Average,Not Eligible
+146678,372,Employed,610881,Good,Eligible
+111387,548,Employed,610592,Poor,Not Eligible
+21016,346,Employed,473602,Good,Not Eligible
+109789,420,Employed,760580,Average,Not Eligible
+75591,513,Employed,163613,Poor,Not Eligible
+109812,538,Employed,774698,Average,Not Eligible
+43247,355,Employed,537505,Good,Not Eligible
+44300,649,Self-Employed,464299,Good,Not Eligible
+94065,406,Employed,592642,Poor,Not Eligible
+102798,347,Employed,334334,Good,Eligible
+29268,636,Employed,580430,Good,Not Eligible
+106807,325,Unemployed,471614,Average,Not Eligible
+32185,556,Self-Employed,233043,Average,Not Eligible
+83704,307,Employed,878294,Good,Not Eligible
+106779,552,Employed,758770,Average,Not Eligible
+59099,602,Employed,200575,Average,Not Eligible
+28571,355,Self-Employed,175438,Good,Not Eligible
+143372,825,Self-Employed,622744,Poor,Eligible
+125512,773,Self-Employed,674455,Good,Eligible
+58044,327,Self-Employed,918467,Good,Not Eligible
+71214,377,Self-Employed,844448,Good,Not Eligible
+81228,515,Employed,314528,Good,Eligible
+134752,685,Employed,243392,Poor,Eligible
+68984,664,Employed,458288,Good,Eligible
+60774,825,Employed,152239,Good,Eligible
+22568,611,Self-Employed,685719,Good,Not Eligible
+140151,306,Employed,916450,Good,Eligible
+82592,302,Employed,614798,Good,Eligible
+87563,662,Employed,754293,Good,Eligible
+22695,807,Employed,858258,Good,Eligible
+144375,573,Employed,380170,Poor,Not Eligible
+68190,805,Employed,171668,Good,Eligible
+25258,314,Employed,816988,Good,Not Eligible
+107538,491,Employed,468734,Good,Eligible
+59504,784,Employed,598333,Average,Eligible
+53159,327,Employed,231948,Good,Eligible
+33986,338,Employed,535662,Good,Not Eligible
+81858,572,Employed,664390,Good,Not Eligible
+149312,530,Employed,364063,Poor,Not Eligible
+32666,385,Self-Employed,673729,Good,Not Eligible
+58660,773,Employed,208175,Average,Eligible
+23561,425,Employed,299877,Good,Not Eligible
+46854,836,Self-Employed,186917,Good,Eligible
+84505,444,Employed,267770,Average,Not Eligible
+124488,824,Employed,692613,Good,Eligible
+72251,511,Self-Employed,593625,Poor,Not Eligible
+42662,324,Employed,727673,Poor,Not Eligible
+28392,693,Employed,994447,Poor,Not Eligible
+50535,366,Unemployed,390093,Good,Not Eligible
+98603,532,Self-Employed,836708,Average,Not Eligible
+133569,408,Employed,363295,Good,Eligible
+72256,445,Employed,985115,Poor,Not Eligible
+109135,410,Employed,717304,Average,Not Eligible
+147478,527,Employed,889319,Average,Not Eligible
+55222,410,Employed,655730,Good,Not Eligible
+97373,769,Employed,99847,Good,Eligible
+99575,333,Employed,108653,Good,Eligible
+143684,668,Employed,791432,Average,Eligible
+116354,724,Self-Employed,827949,Good,Eligible
+104651,817,Self-Employed,368766,Good,Eligible
+83335,581,Employed,339954,Average,Not Eligible
+30965,619,Employed,127842,Good,Not Eligible
+44538,742,Employed,958657,Good,Eligible
+128066,614,Employed,322647,Good,Eligible
+90592,676,Self-Employed,134761,Good,Eligible
+118018,588,Employed,480192,Good,Eligible
+133252,736,Employed,962871,Good,Eligible
+28110,576,Employed,848022,Good,Not Eligible
+99309,802,Employed,566637,Good,Eligible
+47266,815,Employed,716246,Average,Not Eligible
+72992,649,Employed,980370,Good,Not Eligible
+102948,745,Unemployed,378768,Good,Eligible
+142073,649,Employed,738152,Poor,Not Eligible
+118806,436,Employed,452980,Good,Eligible
+26910,542,Employed,831198,Good,Not Eligible
+130989,842,Employed,170356,Average,Eligible
+110982,339,Unemployed,267228,Poor,Not Eligible
+141626,528,Employed,92727,Average,Not Eligible
+139176,847,Self-Employed,390615,Average,Eligible
+20206,522,Employed,582356,Average,Not Eligible
+107054,305,Employed,691211,Good,Eligible
+107897,621,Employed,450511,Average,Not Eligible
+142409,767,Self-Employed,484376,Good,Eligible
+43419,374,Employed,61390,Poor,Not Eligible
+70636,303,Employed,681040,Good,Not Eligible
+142546,417,Unemployed,987635,Good,Not Eligible
+134238,803,Employed,406898,Good,Eligible
+70015,740,Employed,388113,Average,Eligible
+137478,493,Employed,720398,Good,Eligible
+142096,691,Unemployed,799078,Poor,Not Eligible
+127059,325,Employed,389208,Average,Not Eligible
+74268,734,Self-Employed,71281,Good,Eligible
+130687,472,Self-Employed,104189,Average,Not Eligible
+107939,599,Employed,312093,Average,Not Eligible
+38141,625,Self-Employed,360655,Average,Not Eligible
+100356,709,Employed,696403,Good,Eligible
+125878,417,Employed,582893,Good,Eligible
+91910,524,Self-Employed,412462,Good,Eligible
+76044,831,Self-Employed,444597,Good,Eligible
+87214,412,Employed,856242,Poor,Not Eligible
+137930,439,Employed,299415,Good,Eligible
+139324,300,Employed,729682,Average,Not Eligible
+53827,389,Employed,91869,Good,Eligible
+75820,619,Employed,607243,Good,Not Eligible
+82623,849,Employed,635676,Average,Eligible
+101734,438,Employed,815612,Poor,Not Eligible
+95450,810,Employed,60207,Good,Eligible
+113426,558,Employed,268401,Good,Eligible
+137845,309,Employed,209292,Good,Eligible
+42299,560,Employed,527266,Good,Not Eligible
+63585,471,Self-Employed,546762,Good,Not Eligible
+129225,312,Employed,255157,Good,Eligible
+84044,467,Unemployed,72031,Good,Not Eligible
+62557,620,Self-Employed,513937,Average,Not Eligible
+69080,618,Employed,917239,Good,Not Eligible
+129556,628,Self-Employed,645600,Good,Eligible
+22693,849,Employed,634054,Good,Eligible
+115003,718,Employed,193521,Average,Eligible
+115259,394,Employed,401977,Poor,Not Eligible
+132235,617,Employed,237771,Good,Eligible
+89163,535,Employed,287199,Average,Not Eligible
+45939,633,Employed,811019,Good,Not Eligible
+68925,675,Employed,810129,Good,Eligible
+62941,758,Self-Employed,685329,Good,Eligible
+41834,436,Employed,690473,Good,Not Eligible
+38047,846,Self-Employed,227164,Average,Eligible
+46105,812,Employed,506887,Poor,Not Eligible
+95766,595,Employed,584638,Good,Eligible
+35707,619,Self-Employed,801518,Average,Not Eligible
+41976,648,Employed,937291,Good,Not Eligible
+64262,528,Employed,563313,Good,Not Eligible
+145117,569,Employed,835858,Good,Eligible
+43776,590,Employed,118487,Good,Not Eligible
+50080,464,Unemployed,198694,Good,Not Eligible
+148376,304,Employed,173853,Good,Eligible
+86842,678,Unemployed,365261,Good,Eligible
+81373,377,Employed,285062,Good,Eligible
+26776,709,Employed,501610,Average,Not Eligible
+112787,431,Employed,283077,Good,Eligible
+147948,341,Employed,937516,Poor,Not Eligible
+75016,388,Employed,73782,Good,Eligible
+29474,701,Self-Employed,559492,Average,Not Eligible
+125830,595,Self-Employed,864886,Poor,Not Eligible
+78053,594,Employed,904336,Average,Not Eligible
+41959,825,Unemployed,704224,Good,Not Eligible
+25530,721,Self-Employed,458808,Average,Not Eligible
+114856,322,Self-Employed,203245,Good,Eligible
+139101,442,Employed,172258,Good,Eligible
+23748,444,Employed,685956,Good,Not Eligible
+117504,524,Employed,504418,Good,Eligible
+118098,802,Employed,532616,Good,Eligible
+33545,403,Employed,436328,Poor,Not Eligible
+147659,338,Self-Employed,556581,Average,Not Eligible
+86199,497,Employed,473966,Good,Eligible
+54766,690,Employed,328710,Poor,Eligible
+93530,478,Unemployed,712550,Good,Not Eligible
+113557,747,Self-Employed,612621,Poor,Eligible
+81087,799,Employed,434073,Good,Eligible
+115839,314,Self-Employed,786265,Good,Eligible
+136183,588,Employed,663859,Average,Not Eligible
+88840,777,Employed,170263,Average,Eligible
+138451,530,Employed,969093,Average,Not Eligible
+74384,719,Employed,599523,Poor,Not Eligible
+71005,456,Employed,50159,Average,Not Eligible
+66576,849,Employed,717505,Average,Eligible
+59353,740,Employed,212993,Poor,Eligible
+82003,396,Employed,417003,Average,Not Eligible
+103211,710,Employed,197309,Good,Eligible
+72733,588,Self-Employed,157507,Poor,Not Eligible
+85318,553,Employed,975748,Good,Not Eligible
+129953,495,Employed,64743,Average,Not Eligible
+109474,821,Employed,802462,Poor,Eligible
+43664,816,Employed,96101,Average,Eligible
+87172,417,Employed,292717,Average,Not Eligible
+105616,458,Self-Employed,695822,Average,Not Eligible
+145879,527,Employed,396371,Good,Eligible
+113264,515,Employed,280604,Poor,Not Eligible
+135386,314,Self-Employed,237450,Good,Eligible
+46736,456,Employed,907558,Good,Not Eligible
+114209,560,Employed,892503,Good,Eligible
+123041,456,Employed,776481,Good,Eligible
+132859,346,Employed,386907,Good,Eligible
+132181,623,Employed,537030,Average,Not Eligible
+20854,429,Employed,809710,Good,Not Eligible
+110084,710,Self-Employed,455453,Good,Eligible
+58623,394,Self-Employed,721009,Good,Not Eligible
+27392,591,Self-Employed,218785,Good,Not Eligible
+75680,582,Self-Employed,254535,Average,Not Eligible
+146354,368,Employed,750769,Good,Eligible
+66717,310,Self-Employed,229838,Good,Eligible
+139937,553,Employed,620442,Good,Eligible
+107092,849,Employed,319160,Good,Eligible
+70859,433,Employed,522779,Good,Eligible
+145657,322,Employed,491904,Good,Eligible
+124095,645,Employed,926110,Average,Not Eligible
+46309,601,Unemployed,948488,Average,Not Eligible
+107455,662,Employed,628526,Good,Eligible
+83734,695,Employed,370752,Poor,Eligible
+90467,517,Employed,663369,Good,Eligible
+72662,440,Self-Employed,297644,Good,Eligible
+118506,509,Employed,999401,Poor,Not Eligible
+129751,759,Self-Employed,887393,Good,Eligible
+138906,655,Employed,249775,Poor,Eligible
+32688,623,Employed,863349,Good,Not Eligible
+45342,432,Employed,990240,Good,Not Eligible
+57157,426,Self-Employed,864422,Good,Not Eligible
+87863,405,Employed,112551,Average,Not Eligible
+126308,677,Employed,784983,Average,Eligible
+72083,350,Employed,727800,Average,Not Eligible
+126081,328,Employed,216277,Good,Eligible
+85733,761,Employed,130811,Good,Eligible
+109045,595,Employed,829128,Good,Eligible
+54698,596,Employed,891535,Good,Not Eligible
+130078,706,Employed,514028,Poor,Eligible
+100623,704,Employed,418266,Good,Eligible
+42671,645,Employed,284104,Average,Not Eligible
+45184,719,Employed,593296,Average,Not Eligible
+113384,481,Self-Employed,252346,Good,Eligible
+62107,300,Employed,606690,Average,Not Eligible
+106202,670,Self-Employed,234456,Good,Eligible
+129893,730,Self-Employed,834282,Good,Eligible
+71663,608,Employed,449009,Good,Eligible
+35708,436,Self-Employed,546043,Good,Not Eligible
+111906,501,Employed,186643,Good,Eligible
+69811,735,Unemployed,540083,Good,Eligible
+22811,612,Employed,983713,Good,Not Eligible
+76250,416,Employed,163550,Good,Eligible
+132547,543,Self-Employed,534146,Average,Not Eligible
+92082,836,Unemployed,141218,Average,Eligible
+144249,374,Self-Employed,183296,Good,Eligible
+54754,685,Employed,549909,Good,Eligible
+115742,509,Employed,568767,Average,Not Eligible
+126642,774,Unemployed,229767,Good,Eligible
+31411,717,Employed,957211,Average,Not Eligible
+22911,646,Self-Employed,441858,Good,Not Eligible
+87270,828,Self-Employed,815348,Good,Eligible
+103763,478,Employed,290016,Good,Eligible
+28680,481,Employed,82441,Good,Not Eligible
+104896,324,Employed,288038,Average,Not Eligible
+103879,479,Employed,744489,Good,Eligible
+91295,800,Self-Employed,805612,Average,Eligible
+108614,460,Employed,898800,Poor,Not Eligible
+120689,476,Self-Employed,666410,Good,Eligible
+31111,584,Employed,94760,Average,Not Eligible
+57504,362,Unemployed,335622,Good,Not Eligible
+21802,455,Employed,964313,Good,Not Eligible
+28155,768,Employed,908286,Average,Not Eligible
+93656,348,Employed,930662,Good,Not Eligible
+59384,383,Self-Employed,397860,Good,Eligible
+132561,660,Self-Employed,717540,Good,Eligible
+67254,447,Self-Employed,148538,Good,Eligible
+41918,641,Employed,589660,Poor,Not Eligible
+105981,775,Employed,866228,Poor,Not Eligible
+80713,362,Employed,561511,Average,Not Eligible
+50306,659,Employed,271035,Average,Eligible
+36646,626,Employed,935258,Good,Not Eligible
+66843,440,Unemployed,432736,Good,Not Eligible
+140975,514,Unemployed,405779,Good,Not Eligible
+116601,734,Unemployed,685310,Good,Eligible
+110735,617,Self-Employed,628328,Good,Eligible
+127512,331,Employed,911789,Poor,Not Eligible
+36371,584,Employed,776728,Good,Not Eligible
+97371,604,Employed,652644,Good,Eligible
+131472,728,Self-Employed,328355,Good,Eligible
+22049,776,Employed,417570,Average,Not Eligible
+51616,585,Employed,317986,Average,Not Eligible
+123727,443,Employed,506331,Good,Eligible
+132893,723,Employed,903284,Good,Eligible
+146603,318,Self-Employed,437881,Average,Not Eligible
+40932,317,Self-Employed,358112,Good,Not Eligible
+137796,670,Employed,853940,Good,Eligible
+49855,474,Unemployed,203077,Average,Not Eligible
+81434,493,Self-Employed,104575,Average,Not Eligible
+92694,801,Employed,523958,Good,Eligible
+63016,412,Employed,724331,Average,Not Eligible
+27400,413,Employed,468815,Average,Not Eligible
+137858,521,Employed,530808,Good,Eligible
+62642,563,Unemployed,641202,Poor,Not Eligible
+35151,354,Employed,823422,Average,Not Eligible
+71407,757,Self-Employed,641343,Average,Eligible
+86690,461,Employed,661985,Average,Not Eligible
+24499,679,Employed,680527,Good,Eligible
+26295,386,Employed,285469,Good,Not Eligible
+140885,354,Employed,173106,Good,Eligible
+146071,775,Employed,841787,Good,Eligible
+79040,477,Unemployed,890552,Good,Not Eligible
+32183,690,Employed,517835,Poor,Not Eligible
+49299,648,Employed,350486,Average,Not Eligible
+32874,307,Employed,52257,Average,Not Eligible
+136336,612,Employed,339508,Poor,Not Eligible
+52711,742,Employed,730332,Average,Eligible
+25539,627,Employed,161715,Good,Not Eligible
+127941,353,Employed,76654,Good,Eligible
+73351,538,Employed,786129,Good,Not Eligible
+81267,528,Employed,393567,Average,Not Eligible
+143133,350,Employed,341464,Good,Eligible
+68354,563,Employed,595096,Average,Not Eligible
+146063,717,Employed,626677,Good,Eligible
+22557,395,Unemployed,538906,Average,Not Eligible
+58360,387,Self-Employed,168581,Average,Not Eligible
+102018,377,Employed,177927,Average,Not Eligible
+22200,587,Employed,84773,Poor,Not Eligible
+132476,419,Unemployed,756528,Average,Not Eligible
+88497,790,Self-Employed,470963,Poor,Eligible
+66975,751,Employed,388540,Poor,Eligible
+41357,799,Self-Employed,551590,Average,Not Eligible
+139121,464,Employed,419836,Average,Not Eligible
+97505,481,Employed,264764,Good,Eligible
+22869,768,Employed,631793,Good,Eligible
+146114,306,Employed,922328,Good,Eligible
+81135,629,Unemployed,592423,Good,Not Eligible
+70108,450,Self-Employed,665175,Good,Not Eligible
+132296,384,Employed,172118,Poor,Not Eligible
+114179,446,Employed,359521,Poor,Not Eligible
+110272,680,Employed,204626,Average,Eligible
+58467,847,Employed,898923,Good,Eligible
+43328,584,Self-Employed,295739,Good,Not Eligible
+139181,381,Employed,894715,Good,Eligible
+111412,813,Employed,528356,Good,Eligible
+106831,822,Self-Employed,329067,Good,Eligible
+23987,685,Employed,359735,Good,Eligible
+78871,770,Self-Employed,636549,Poor,Not Eligible
+42399,418,Employed,366480,Average,Not Eligible
+148391,695,Unemployed,386227,Good,Eligible
+66214,831,Employed,635236,Good,Eligible
+119522,560,Employed,290891,Good,Eligible
+106416,555,Employed,214074,Good,Eligible
+90271,525,Employed,523314,Poor,Not Eligible
+64064,352,Self-Employed,559452,Good,Not Eligible
+145615,799,Self-Employed,338816,Good,Eligible
+90091,805,Employed,840645,Good,Eligible
+127450,663,Employed,191365,Good,Eligible
+60818,579,Employed,499076,Average,Not Eligible
+65525,457,Employed,112507,Average,Not Eligible
+39830,358,Employed,107134,Average,Not Eligible
+37429,427,Self-Employed,183172,Good,Not Eligible
+26893,414,Employed,291225,Good,Not Eligible
+136381,508,Employed,243069,Good,Eligible
+99909,825,Employed,864604,Poor,Not Eligible
+67333,820,Self-Employed,856564,Good,Eligible
+23436,536,Self-Employed,823221,Good,Not Eligible
+94290,580,Self-Employed,854631,Average,Not Eligible
+96213,658,Employed,610897,Average,Eligible
+25895,500,Employed,224037,Good,Not Eligible
+39738,577,Self-Employed,713376,Good,Not Eligible
+50746,534,Self-Employed,482995,Good,Not Eligible
+69377,793,Employed,546013,Poor,Eligible
+68404,303,Self-Employed,344025,Good,Eligible
+74045,741,Self-Employed,787954,Poor,Not Eligible
+117888,328,Employed,860904,Good,Eligible
+149307,408,Self-Employed,550098,Poor,Not Eligible
+59790,374,Employed,757173,Average,Not Eligible
+127455,445,Employed,805728,Good,Eligible
+25600,427,Employed,307803,Poor,Not Eligible
+114660,341,Self-Employed,741381,Good,Eligible
+113179,655,Self-Employed,366275,Poor,Eligible
+60764,340,Self-Employed,729447,Average,Not Eligible
+94543,333,Employed,62828,Good,Eligible
+65714,316,Self-Employed,933096,Average,Not Eligible
+76835,452,Self-Employed,566835,Poor,Not Eligible
+122946,677,Self-Employed,706761,Good,Eligible
+148191,641,Self-Employed,851625,Good,Eligible
+129616,326,Self-Employed,273461,Average,Not Eligible
+125983,586,Employed,488080,Average,Not Eligible
+93744,467,Employed,463523,Good,Eligible
+76491,567,Employed,414662,Good,Eligible
+144123,754,Employed,331755,Good,Eligible
+38589,700,Employed,749151,Good,Eligible
+63484,775,Self-Employed,979454,Good,Eligible
+102989,429,Employed,388384,Poor,Not Eligible
+56212,662,Employed,289719,Good,Eligible
+63525,591,Self-Employed,782763,Average,Not Eligible
+67202,670,Employed,839177,Good,Eligible
+52635,328,Employed,891675,Good,Not Eligible
+83208,448,Employed,316010,Good,Eligible
+53828,595,Employed,737605,Good,Not Eligible
+38711,310,Employed,487940,Average,Not Eligible
+23420,811,Employed,965113,Poor,Not Eligible
+116752,412,Employed,645642,Average,Not Eligible
+20301,486,Self-Employed,101374,Poor,Not Eligible
+65236,526,Employed,164397,Poor,Not Eligible
+135294,609,Self-Employed,298552,Good,Eligible
+137858,397,Employed,436721,Average,Not Eligible
+86235,354,Employed,473332,Average,Not Eligible
+74240,705,Self-Employed,917461,Good,Eligible
+144019,368,Employed,930006,Average,Not Eligible
+85726,611,Employed,987951,Good,Not Eligible
+30492,588,Employed,342575,Good,Not Eligible
+135668,847,Employed,461124,Average,Eligible
+121279,447,Employed,79336,Good,Eligible
+26102,766,Employed,877424,Good,Eligible
+70336,543,Employed,105350,Poor,Not Eligible
+138015,790,Employed,643849,Average,Eligible
+105314,806,Self-Employed,560470,Good,Eligible
+143007,664,Self-Employed,888387,Average,Eligible
+46641,781,Unemployed,111240,Good,Eligible
+54584,500,Employed,725453,Good,Not Eligible
+52745,453,Self-Employed,449371,Poor,Not Eligible
+140542,749,Employed,620895,Average,Eligible
+43093,800,Employed,761028,Good,Eligible
+86105,372,Employed,988467,Average,Not Eligible
+123746,595,Self-Employed,231196,Poor,Not Eligible
+120199,316,Employed,365014,Good,Eligible
+71885,516,Employed,499763,Good,Eligible
+56631,360,Employed,638398,Good,Not Eligible
+131217,341,Self-Employed,234626,Average,Not Eligible
+92991,324,Self-Employed,726296,Average,Not Eligible
+24014,338,Self-Employed,429039,Average,Not Eligible
+31093,430,Employed,578714,Poor,Not Eligible
+38070,797,Employed,794199,Average,Not Eligible
+55777,528,Employed,864038,Good,Not Eligible
+76958,407,Employed,491048,Good,Eligible
+102074,471,Employed,602439,Good,Eligible
+30729,734,Self-Employed,323452,Good,Eligible
+119713,777,Unemployed,290853,Average,Eligible
+65017,401,Self-Employed,828883,Poor,Not Eligible
+86320,823,Self-Employed,226743,Good,Eligible
+47751,574,Unemployed,140306,Good,Not Eligible
+126400,343,Employed,799468,Average,Not Eligible
+125864,316,Employed,943416,Good,Eligible
+98069,629,Unemployed,576492,Good,Not Eligible
+125647,796,Employed,142769,Good,Eligible
+125510,311,Self-Employed,137265,Good,Eligible
+74748,617,Employed,867563,Poor,Not Eligible
+25801,515,Employed,102428,Good,Not Eligible
+39190,638,Self-Employed,608158,Good,Not Eligible
+69689,380,Unemployed,677835,Good,Not Eligible
+124290,784,Self-Employed,810278,Poor,Eligible
+70993,673,Employed,99067,Good,Eligible
+49592,499,Self-Employed,812371,Good,Not Eligible
+30647,836,Employed,162217,Good,Eligible
+28716,765,Employed,989111,Good,Eligible
+108891,388,Employed,468184,Good,Eligible
+107545,567,Employed,673222,Average,Not Eligible
+137638,788,Employed,192980,Good,Eligible
+109912,837,Unemployed,993927,Good,Eligible
+130627,346,Self-Employed,552367,Average,Not Eligible
+90316,587,Employed,386851,Good,Eligible
+146995,315,Employed,259329,Good,Eligible
+22368,700,Unemployed,307354,Good,Not Eligible
+97575,385,Unemployed,573406,Poor,Not Eligible
+26655,549,Self-Employed,111215,Good,Not Eligible
+126477,690,Employed,761195,Poor,Eligible
+90031,634,Employed,361573,Average,Not Eligible
+96429,818,Employed,918584,Good,Eligible
+111083,436,Employed,682336,Poor,Not Eligible
+107922,797,Employed,219530,Good,Eligible
+75766,776,Unemployed,227241,Good,Eligible
+144046,522,Employed,188731,Average,Not Eligible
+33403,671,Employed,503830,Average,Not Eligible
+52097,701,Employed,814265,Average,Eligible
+98657,742,Employed,389384,Good,Eligible
+140607,789,Employed,476009,Good,Eligible
+30966,572,Employed,163688,Average,Not Eligible
+144862,825,Employed,358617,Good,Eligible
+119157,458,Self-Employed,933194,Good,Eligible
+138834,451,Unemployed,794748,Good,Not Eligible
+113848,487,Employed,540834,Good,Eligible
+72921,397,Employed,943388,Poor,Not Eligible
+69726,430,Self-Employed,430596,Good,Eligible
+146141,470,Employed,761111,Poor,Not Eligible
+70300,482,Employed,962743,Good,Not Eligible
+42677,663,Self-Employed,784275,Average,Not Eligible
+75609,338,Employed,319150,Good,Eligible
+116825,826,Employed,299243,Good,Eligible
+76661,796,Employed,648506,Good,Eligible
+51024,815,Employed,246416,Good,Eligible
+128211,648,Employed,606718,Good,Eligible
+90313,696,Self-Employed,73091,Poor,Eligible
+147813,460,Employed,831413,Average,Not Eligible
+73006,315,Employed,598277,Good,Not Eligible
+115285,792,Self-Employed,125451,Good,Eligible
+35338,725,Employed,68990,Good,Eligible
+88027,407,Employed,402414,Good,Eligible
+112772,749,Self-Employed,916792,Average,Eligible
+133632,610,Employed,300541,Poor,Not Eligible
+100135,469,Self-Employed,872513,Good,Not Eligible
+39508,845,Self-Employed,716393,Good,Eligible
+140379,713,Employed,420416,Good,Eligible
+23051,550,Employed,852673,Average,Not Eligible
+68747,440,Unemployed,174932,Good,Not Eligible
+134692,573,Employed,318083,Average,Not Eligible
+107142,715,Self-Employed,163000,Average,Eligible
+107235,338,Employed,752922,Good,Eligible
+74021,328,Employed,609351,Average,Not Eligible
+86412,776,Employed,543216,Good,Eligible
+78335,617,Unemployed,782081,Average,Not Eligible
+76179,544,Unemployed,732405,Good,Not Eligible
+52093,571,Employed,559850,Good,Not Eligible
+89678,739,Employed,487985,Poor,Eligible
+100738,538,Self-Employed,883550,Poor,Not Eligible
+59734,676,Employed,134703,Average,Eligible
+92615,565,Employed,545164,Good,Eligible
+93523,658,Self-Employed,464841,Average,Eligible
+125103,639,Employed,810084,Good,Eligible
+114476,688,Unemployed,702845,Poor,Not Eligible
+122769,302,Employed,339220,Good,Eligible
+37019,728,Employed,303317,Poor,Not Eligible
+131721,441,Employed,245877,Poor,Not Eligible
+103613,675,Self-Employed,881037,Average,Eligible
+111794,623,Employed,396709,Good,Eligible
+106672,445,Employed,531725,Good,Eligible
+93847,592,Employed,875553,Poor,Not Eligible
+102750,731,Self-Employed,867865,Good,Eligible
+99634,698,Employed,617597,Poor,Eligible
+48251,643,Employed,903900,Good,Not Eligible
+123481,439,Self-Employed,487470,Good,Eligible
+132566,486,Employed,903725,Poor,Not Eligible
+45945,360,Employed,408402,Average,Not Eligible
+110852,679,Self-Employed,874837,Good,Eligible
+52217,739,Employed,617815,Good,Eligible
+28308,618,Self-Employed,913659,Good,Not Eligible
+25949,601,Employed,967996,Average,Not Eligible
+71990,643,Self-Employed,798778,Good,Not Eligible
+21150,310,Employed,189883,Poor,Not Eligible
+109480,361,Employed,667632,Poor,Not Eligible
+120235,525,Unemployed,205344,Good,Not Eligible
+94740,452,Self-Employed,515226,Average,Not Eligible
+136352,609,Employed,797852,Good,Eligible
+86617,542,Employed,621441,Good,Eligible
+114841,792,Self-Employed,158042,Poor,Eligible
+36896,665,Employed,104110,Good,Eligible
+145729,629,Self-Employed,195051,Good,Eligible
+66175,406,Self-Employed,815419,Good,Not Eligible
+27805,525,Employed,813461,Good,Not Eligible
+25237,517,Employed,78328,Good,Not Eligible
+135247,805,Self-Employed,687199,Average,Eligible
+40056,558,Employed,325011,Average,Not Eligible
+65543,816,Employed,109234,Average,Eligible
+76556,353,Unemployed,862283,Good,Not Eligible
+134548,346,Employed,867711,Good,Eligible
+131488,820,Self-Employed,822791,Good,Eligible
+23343,398,Employed,277135,Good,Not Eligible
+33500,319,Employed,647690,Good,Not Eligible
+73222,789,Employed,851881,Good,Eligible
+49375,718,Employed,388365,Good,Eligible
+29662,361,Employed,925512,Good,Not Eligible
+36964,444,Employed,579739,Poor,Not Eligible
+133429,515,Self-Employed,137178,Poor,Not Eligible
+141692,302,Employed,900193,Average,Not Eligible
+79638,459,Employed,286562,Poor,Not Eligible
+93666,419,Employed,351014,Average,Not Eligible
+105067,388,Employed,408710,Good,Eligible
+138937,628,Employed,435893,Good,Eligible
+87215,656,Employed,173765,Average,Eligible
+89042,566,Employed,437025,Average,Not Eligible
+33284,622,Employed,998377,Average,Not Eligible
+92789,840,Employed,178389,Average,Eligible
+104664,494,Self-Employed,763987,Good,Eligible
+113468,631,Employed,247227,Average,Not Eligible
+81389,469,Employed,542402,Poor,Not Eligible
+29435,820,Employed,861804,Good,Eligible
+74340,762,Employed,840074,Average,Eligible
+64078,339,Self-Employed,310220,Good,Eligible
+98832,836,Employed,471217,Average,Eligible
+71293,560,Employed,346208,Average,Not Eligible
+115981,694,Employed,800186,Good,Eligible
+98781,525,Employed,850554,Average,Not Eligible
+80403,423,Employed,992324,Good,Not Eligible
+49124,337,Employed,118431,Average,Not Eligible
+115435,627,Self-Employed,105745,Good,Eligible
+63919,550,Employed,100081,Average,Not Eligible
+128761,475,Employed,976215,Good,Eligible
+141305,753,Employed,266204,Average,Eligible
+55247,336,Employed,986297,Good,Not Eligible
+141172,615,Employed,451415,Poor,Not Eligible
+114758,413,Self-Employed,650541,Poor,Not Eligible
+111747,339,Self-Employed,348335,Poor,Not Eligible
+82752,600,Employed,846643,Average,Not Eligible
+76573,523,Self-Employed,161086,Average,Not Eligible
+79101,617,Unemployed,506285,Good,Not Eligible
+122756,648,Self-Employed,464758,Good,Eligible
+46646,414,Employed,474528,Good,Not Eligible
+124185,622,Self-Employed,488458,Average,Not Eligible
+43049,339,Employed,938403,Poor,Not Eligible
+99605,339,Unemployed,668071,Good,Not Eligible
+118116,588,Employed,699969,Poor,Not Eligible
+117379,561,Employed,662181,Average,Not Eligible
+88385,515,Self-Employed,549797,Average,Not Eligible
+146131,446,Employed,208763,Good,Eligible
+60158,635,Unemployed,652248,Good,Not Eligible
+85417,467,Unemployed,920820,Good,Not Eligible
+43289,391,Self-Employed,72601,Average,Not Eligible
+130226,652,Employed,461236,Good,Eligible
+120793,662,Self-Employed,189227,Good,Eligible
+29823,644,Employed,774479,Poor,Not Eligible
+80160,469,Employed,742137,Average,Not Eligible
+61975,655,Self-Employed,331854,Poor,Eligible
+29540,490,Employed,420858,Good,Not Eligible
+36364,721,Employed,729892,Good,Eligible
+24611,306,Unemployed,703015,Average,Not Eligible
+47663,432,Employed,986105,Good,Not Eligible
+71991,330,Employed,637515,Good,Not Eligible
+77679,834,Unemployed,710327,Good,Eligible
+124182,725,Employed,658577,Good,Eligible
+50977,693,Self-Employed,201094,Good,Eligible
+114704,662,Unemployed,486679,Good,Eligible
+69115,736,Unemployed,780031,Good,Eligible
+111007,381,Self-Employed,842154,Good,Eligible
+108223,655,Employed,732773,Average,Eligible
+80890,557,Employed,917482,Good,Not Eligible
+86387,823,Self-Employed,552648,Average,Eligible
+38071,594,Self-Employed,808108,Good,Not Eligible
+79275,523,Employed,811282,Good,Not Eligible
+92369,824,Employed,529083,Average,Eligible
+31938,345,Employed,395740,Good,Not Eligible
+55195,412,Employed,903164,Good,Not Eligible
+111680,532,Self-Employed,455513,Good,Eligible
+24000,316,Employed,118323,Poor,Not Eligible
+90588,659,Unemployed,335960,Good,Eligible
+121042,522,Self-Employed,614983,Good,Eligible
+113610,747,Employed,462918,Average,Eligible
+140420,664,Employed,468458,Good,Eligible
+123691,625,Employed,105841,Good,Eligible
+126306,766,Employed,440642,Good,Eligible
+117856,713,Self-Employed,248784,Average,Eligible
+58304,754,Self-Employed,157096,Good,Eligible
+131783,532,Self-Employed,142764,Good,Eligible
+89449,523,Employed,496790,Good,Eligible
+102986,711,Employed,660032,Average,Eligible
+109643,634,Self-Employed,864914,Good,Eligible
+40764,521,Employed,583459,Poor,Not Eligible
+128940,336,Employed,675043,Good,Eligible
+106027,577,Employed,542148,Poor,Not Eligible
+58494,495,Self-Employed,682413,Poor,Not Eligible
+23373,783,Employed,967154,Good,Eligible
+32161,541,Self-Employed,418226,Good,Not Eligible
+117532,623,Unemployed,53696,Good,Not Eligible
+112658,491,Employed,176310,Good,Eligible
+143633,316,Employed,987562,Average,Not Eligible
+120386,823,Employed,725673,Good,Eligible
+47350,700,Self-Employed,855581,Good,Eligible
+113008,321,Employed,966496,Good,Not Eligible
+114297,773,Employed,889953,Poor,Eligible
+45351,419,Employed,95740,Good,Not Eligible
+108668,509,Self-Employed,156611,Good,Eligible
+134585,605,Employed,448172,Good,Eligible
+35305,569,Self-Employed,518947,Poor,Not Eligible
+95353,584,Unemployed,525828,Average,Not Eligible
+96797,526,Employed,823210,Good,Not Eligible
+85953,680,Self-Employed,378785,Good,Eligible
+77458,759,Employed,638099,Good,Eligible
+127112,306,Self-Employed,495376,Good,Eligible
+40358,328,Self-Employed,756673,Poor,Not Eligible
+23267,332,Self-Employed,637520,Average,Not Eligible
+102745,378,Employed,851849,Good,Not Eligible
+109588,758,Employed,730089,Poor,Eligible
+58513,837,Employed,162492,Good,Eligible
+46092,781,Employed,80099,Average,Eligible
+31338,729,Employed,803494,Poor,Not Eligible
+20412,584,Employed,473177,Good,Not Eligible
+27543,815,Employed,980106,Average,Not Eligible
+125891,398,Employed,692762,Good,Eligible
+53496,696,Self-Employed,321400,Good,Eligible
+80692,788,Employed,529336,Good,Eligible
+109084,338,Employed,817876,Good,Eligible
+112920,570,Employed,608969,Average,Not Eligible
+143555,456,Employed,141328,Poor,Not Eligible
+64425,374,Unemployed,792800,Average,Not Eligible
+58756,429,Employed,355505,Poor,Not Eligible
+38888,383,Self-Employed,507719,Average,Not Eligible
+55735,321,Unemployed,84540,Good,Not Eligible
+67295,758,Self-Employed,207608,Good,Eligible
+137474,838,Self-Employed,134700,Good,Eligible
+134352,681,Self-Employed,390676,Average,Eligible
+103042,739,Unemployed,761935,Poor,Not Eligible
+105999,320,Employed,439770,Good,Eligible
+37955,602,Employed,446087,Average,Not Eligible
+57841,383,Employed,96002,Average,Not Eligible
+90640,752,Employed,99812,Good,Eligible
+85510,686,Employed,465842,Good,Eligible
+54911,806,Employed,765339,Good,Eligible
+79031,556,Employed,307906,Good,Eligible
+108726,826,Employed,158946,Good,Eligible
+27357,461,Employed,116668,Good,Not Eligible
+52479,462,Employed,149003,Good,Eligible
+81476,823,Employed,785430,Good,Eligible
+64811,570,Employed,270462,Poor,Not Eligible
+56208,791,Employed,879430,Good,Eligible
+40150,507,Self-Employed,769174,Average,Not Eligible
+91180,838,Employed,678889,Good,Eligible
+63286,359,Employed,319956,Good,Eligible
+132856,729,Self-Employed,111844,Poor,Eligible
+88450,608,Employed,775453,Good,Not Eligible
+41352,819,Employed,445395,Good,Eligible
+75069,326,Self-Employed,749158,Average,Not Eligible
+131888,498,Self-Employed,124601,Good,Eligible
+130448,686,Employed,975779,Good,Eligible
+34397,648,Employed,360001,Good,Not Eligible
+61555,835,Unemployed,437699,Good,Eligible
+66959,677,Employed,544700,Good,Eligible
+20728,826,Employed,332844,Good,Eligible
+70517,452,Self-Employed,832215,Poor,Not Eligible
+139180,505,Employed,482680,Average,Not Eligible
+86234,754,Employed,223423,Average,Eligible
+59954,572,Employed,143330,Average,Not Eligible
+67280,535,Self-Employed,275391,Poor,Not Eligible
+99459,820,Employed,263606,Good,Eligible
+36779,800,Self-Employed,457085,Poor,Not Eligible
+83932,416,Employed,241387,Average,Not Eligible
+92936,685,Employed,291133,Average,Eligible
+44466,643,Employed,536904,Good,Not Eligible
+56939,694,Self-Employed,464170,Good,Eligible
+89896,363,Employed,736915,Good,Not Eligible
+55270,371,Employed,375497,Average,Not Eligible
+79163,573,Self-Employed,525406,Good,Eligible
+102637,619,Employed,488242,Average,Not Eligible
+71934,637,Unemployed,412916,Good,Not Eligible
+84895,665,Employed,228048,Good,Eligible
+52307,794,Self-Employed,403646,Good,Eligible
+74098,465,Employed,426087,Good,Eligible
+80921,843,Unemployed,421994,Good,Eligible
+25486,310,Employed,619383,Good,Not Eligible
+28335,600,Employed,195342,Poor,Not Eligible
+106900,401,Employed,736268,Good,Eligible
+146020,724,Employed,851955,Good,Eligible
+141954,691,Employed,112433,Average,Eligible
+122795,513,Unemployed,594279,Poor,Not Eligible
+109112,387,Employed,322919,Average,Not Eligible
+117203,700,Self-Employed,521017,Good,Eligible
+31130,345,Employed,397139,Poor,Not Eligible
+107508,762,Self-Employed,197745,Average,Eligible
+125955,609,Employed,697096,Good,Eligible
+138324,385,Employed,732416,Good,Eligible
+80566,391,Self-Employed,187686,Good,Eligible
+86703,541,Unemployed,57415,Good,Not Eligible
+47192,301,Employed,820326,Average,Not Eligible
+21062,524,Employed,487100,Good,Not Eligible
+104076,415,Employed,984468,Poor,Not Eligible
+109780,402,Unemployed,828493,Good,Not Eligible
+41545,493,Employed,349188,Good,Not Eligible
+41689,465,Employed,762509,Good,Not Eligible
+31174,389,Self-Employed,218616,Good,Not Eligible
+108461,421,Employed,99976,Average,Not Eligible
+146174,442,Employed,475468,Average,Not Eligible
+123033,405,Employed,315976,Good,Eligible
+29348,727,Unemployed,271883,Good,Not Eligible
+43714,604,Employed,261509,Good,Not Eligible
+58102,616,Employed,546965,Average,Not Eligible
+94460,308,Employed,870580,Good,Not Eligible
+122634,372,Employed,813529,Good,Eligible
+109930,658,Employed,568823,Average,Eligible
+26801,522,Employed,269526,Poor,Not Eligible
+123150,715,Employed,948662,Good,Eligible
+92267,669,Employed,397220,Good,Eligible
+68136,563,Employed,874834,Average,Not Eligible
+43625,617,Employed,763087,Average,Not Eligible
+102873,383,Self-Employed,88578,Good,Eligible
+120843,617,Employed,664741,Poor,Not Eligible
+92592,410,Self-Employed,465534,Average,Not Eligible
+97052,550,Self-Employed,912147,Good,Not Eligible
+64261,682,Employed,258859,Good,Eligible
+21542,306,Employed,161435,Good,Not Eligible
+41677,758,Employed,790389,Average,Not Eligible
+66732,383,Employed,201538,Good,Eligible
+70343,507,Employed,932174,Average,Not Eligible
+59081,689,Employed,95475,Average,Eligible
+82856,613,Employed,896574,Good,Not Eligible
+113105,321,Self-Employed,790520,Average,Not Eligible
+108858,709,Employed,207636,Poor,Eligible
+39065,814,Self-Employed,203484,Good,Eligible
+144097,426,Employed,143526,Good,Eligible
+103460,313,Self-Employed,101001,Good,Eligible
+108092,311,Employed,894081,Poor,Not Eligible
+146116,386,Employed,242029,Poor,Not Eligible
+74693,823,Self-Employed,478733,Good,Eligible
+46962,836,Employed,718516,Average,Not Eligible
+48295,600,Employed,990568,Good,Not Eligible
+33807,542,Unemployed,599999,Good,Not Eligible
+62348,421,Employed,604394,Good,Not Eligible
+46432,446,Employed,901890,Good,Not Eligible
+103285,655,Self-Employed,984093,Good,Eligible
+126995,608,Self-Employed,532488,Good,Eligible
+111792,587,Self-Employed,442573,Good,Eligible
+77854,606,Employed,267583,Poor,Not Eligible
+60262,848,Self-Employed,413898,Good,Eligible
+57080,651,Employed,188286,Good,Eligible
+21324,611,Self-Employed,277189,Good,Not Eligible
+111267,358,Unemployed,176479,Average,Not Eligible
+144707,334,Self-Employed,470343,Good,Eligible
+55909,744,Self-Employed,186213,Good,Eligible
+109339,392,Employed,603172,Poor,Not Eligible
+39870,506,Self-Employed,314852,Good,Not Eligible
+54578,652,Self-Employed,854807,Good,Eligible
+92124,631,Employed,589376,Average,Not Eligible
+137611,458,Self-Employed,369759,Good,Eligible
+123605,323,Employed,422282,Good,Eligible
+46790,703,Self-Employed,750406,Good,Eligible
+138874,815,Self-Employed,322158,Good,Eligible
+45289,663,Self-Employed,769785,Good,Eligible
+75129,681,Employed,446489,Good,Eligible
+113714,831,Employed,752495,Good,Eligible
+114246,451,Employed,414986,Good,Eligible
+35485,719,Unemployed,998385,Average,Not Eligible
+64482,549,Employed,540238,Good,Not Eligible
+106188,416,Employed,128077,Good,Eligible
+24748,811,Self-Employed,189784,Poor,Not Eligible
+106769,634,Employed,255776,Average,Not Eligible
+29435,717,Employed,365018,Good,Eligible
+23709,594,Employed,119087,Poor,Not Eligible
+143961,670,Self-Employed,848729,Good,Eligible
+50355,485,Employed,814629,Good,Not Eligible
+75771,545,Employed,863560,Average,Not Eligible
+77799,567,Employed,642656,Good,Not Eligible
+33116,536,Employed,793859,Good,Not Eligible
+45470,829,Employed,391102,Good,Eligible
+62344,320,Employed,345064,Good,Eligible
+62918,819,Employed,301514,Good,Eligible
+72224,399,Self-Employed,978660,Poor,Not Eligible
+59298,777,Employed,192180,Good,Eligible
+128492,597,Self-Employed,999349,Poor,Not Eligible
+100219,825,Unemployed,970304,Good,Eligible
+81629,633,Self-Employed,834192,Average,Not Eligible
+86040,301,Self-Employed,485928,Average,Not Eligible
+119518,674,Employed,970114,Average,Eligible
+119835,592,Employed,651891,Good,Eligible
+48016,617,Employed,83872,Good,Not Eligible
+43960,801,Employed,322872,Good,Eligible
+53591,680,Unemployed,407246,Poor,Not Eligible
+102848,313,Self-Employed,538535,Average,Not Eligible
+123333,803,Employed,434193,Good,Eligible
+131732,530,Employed,857015,Good,Eligible
+134821,383,Self-Employed,135774,Good,Eligible
+87641,429,Employed,974767,Average,Not Eligible
+56395,444,Employed,438518,Good,Eligible
+131276,327,Self-Employed,248522,Average,Not Eligible
+149695,365,Employed,270357,Poor,Not Eligible
+42700,462,Employed,462672,Good,Not Eligible
+54620,528,Employed,927550,Good,Not Eligible
+123214,560,Self-Employed,115942,Good,Eligible
+148148,748,Employed,587977,Good,Eligible
+40559,723,Employed,607564,Good,Eligible
+113045,759,Employed,559565,Good,Eligible
+113396,600,Employed,572552,Poor,Not Eligible
+81642,602,Employed,676256,Good,Not Eligible
+96539,586,Self-Employed,463089,Good,Eligible
+41732,694,Employed,849482,Poor,Not Eligible
+148675,309,Self-Employed,640504,Average,Not Eligible
+111362,569,Employed,789804,Good,Eligible
+50354,660,Employed,396184,Good,Eligible
+33843,556,Employed,595932,Good,Not Eligible
+130008,432,Employed,112021,Average,Not Eligible
+134065,575,Employed,742485,Average,Not Eligible
+91726,812,Employed,510115,Average,Eligible
+37640,612,Employed,92291,Good,Not Eligible
+72528,583,Employed,478276,Average,Not Eligible
+58413,420,Employed,444754,Good,Eligible
+148142,406,Self-Employed,353664,Good,Eligible
+72638,503,Unemployed,75675,Good,Not Eligible
+72736,464,Employed,723647,Good,Not Eligible
+127892,604,Employed,312318,Good,Eligible
+130133,796,Employed,142268,Average,Eligible
+126357,455,Employed,347142,Poor,Not Eligible
+88866,666,Employed,758672,Good,Eligible
+39087,550,Self-Employed,979616,Good,Not Eligible
+61430,633,Employed,679698,Good,Not Eligible
+44504,810,Employed,387369,Good,Eligible
+27114,592,Self-Employed,881246,Good,Not Eligible
+98859,319,Employed,397235,Poor,Not Eligible
+119657,581,Self-Employed,362863,Good,Eligible
+30975,300,Employed,179887,Good,Not Eligible
+31023,418,Employed,346063,Good,Not Eligible
+41447,334,Employed,385299,Poor,Not Eligible
+110469,497,Employed,383713,Average,Not Eligible
+145899,784,Unemployed,877760,Poor,Not Eligible
+43959,358,Employed,251554,Average,Not Eligible
+86203,460,Unemployed,861050,Good,Not Eligible
+139156,505,Employed,608963,Good,Eligible
+49703,311,Employed,545010,Average,Not Eligible
+29337,789,Employed,855351,Good,Eligible
+66427,575,Employed,840605,Good,Not Eligible
+141507,541,Unemployed,421513,Good,Not Eligible
+81529,515,Employed,862832,Good,Not Eligible
+122023,550,Employed,231517,Good,Eligible
+104665,425,Employed,120305,Good,Eligible
+125787,516,Employed,742924,Average,Not Eligible
+51921,605,Employed,489030,Good,Not Eligible
+53307,484,Employed,522963,Good,Not Eligible
+47355,338,Self-Employed,663079,Good,Not Eligible
+123268,522,Employed,209034,Good,Eligible
+147016,483,Employed,528108,Good,Eligible
+24835,794,Employed,644821,Good,Eligible
+40159,726,Employed,237256,Good,Eligible
+124346,477,Unemployed,526128,Good,Not Eligible
+67605,727,Employed,940023,Good,Eligible
+141790,593,Employed,715938,Good,Eligible
+125616,450,Employed,705348,Good,Eligible
+58088,683,Employed,723984,Good,Eligible
