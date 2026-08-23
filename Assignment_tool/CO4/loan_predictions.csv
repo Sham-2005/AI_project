@@ -1,0 +1,201 @@
+Income,CreditScore,EmploymentStatus,LoanAmount,RepaymentHistory,Actual,Predicted
+78871,770,1,636549,2,Not Eligible,Eligible
+130078,706,0,514028,2,Eligible,Eligible
+57504,362,2,335622,1,Not Eligible,Eligible
+70993,673,0,99067,1,Eligible,Eligible
+23420,811,0,965113,2,Not Eligible,Not Eligible
+89042,566,0,437025,0,Not Eligible,Not Eligible
+71934,637,2,412916,1,Not Eligible,Eligible
+67605,727,0,940023,1,Eligible,Eligible
+67202,670,0,839177,1,Eligible,Eligible
+100623,704,0,418266,1,Eligible,Eligible
+128940,336,0,675043,1,Eligible,Eligible
+30729,734,1,323452,1,Eligible,Eligible
+97052,550,1,912147,1,Not Eligible,Eligible
+106807,325,2,471614,0,Not Eligible,Not Eligible
+43897,634,0,992346,2,Not Eligible,Not Eligible
+25258,314,0,816988,1,Not Eligible,Not Eligible
+28392,693,0,994447,2,Not Eligible,Not Eligible
+50977,693,1,201094,1,Eligible,Eligible
+125510,311,1,137265,1,Eligible,Eligible
+116354,724,1,827949,1,Eligible,Eligible
+142096,691,2,799078,2,Not Eligible,Not Eligible
+72083,350,0,727800,0,Not Eligible,Not Eligible
+119299,812,0,314598,0,Eligible,Eligible
+38888,383,1,507719,0,Not Eligible,Not Eligible
+20769,398,0,237954,1,Not Eligible,Not Eligible
+98069,629,2,576492,1,Not Eligible,Not Eligible
+112787,431,0,283077,1,Eligible,Eligible
+28110,576,0,848022,1,Not Eligible,Not Eligible
+74886,550,0,459064,0,Not Eligible,Not Eligible
+149695,365,0,270357,2,Not Eligible,Not Eligible
+125983,586,0,488080,0,Not Eligible,Not Eligible
+145657,322,0,491904,1,Eligible,Eligible
+109112,387,0,322919,0,Not Eligible,Not Eligible
+123268,522,0,209034,1,Eligible,Eligible
+44300,649,1,464299,1,Not Eligible,Not Eligible
+107897,621,0,450511,0,Not Eligible,Not Eligible
+58088,683,0,723984,1,Eligible,Eligible
+99309,802,0,566637,1,Eligible,Eligible
+102848,313,1,538535,0,Not Eligible,Not Eligible
+80890,557,0,917482,1,Not Eligible,Not Eligible
+109780,402,2,828493,1,Not Eligible,Not Eligible
+108223,655,0,732773,0,Eligible,Eligible
+52217,739,0,617815,1,Eligible,Eligible
+81389,469,0,542402,2,Not Eligible,Not Eligible
+67280,535,1,275391,2,Not Eligible,Eligible
+140607,789,0,476009,1,Eligible,Eligible
+137796,670,0,853940,1,Eligible,Eligible
+46736,456,0,907558,1,Not Eligible,Not Eligible
+108726,826,0,158946,1,Eligible,Eligible
+83208,448,0,316010,1,Eligible,Eligible
+125878,417,0,582893,1,Eligible,Eligible
+137638,788,0,192980,1,Eligible,Eligible
+72528,583,0,478276,0,Not Eligible,Not Eligible
+113848,487,0,540834,1,Eligible,Eligible
+93969,548,0,256846,1,Eligible,Eligible
+51616,585,0,317986,0,Not Eligible,Not Eligible
+56939,694,1,464170,1,Eligible,Eligible
+145615,799,1,338816,1,Eligible,Eligible
+98953,580,0,765371,1,Eligible,Eligible
+21802,455,0,964313,1,Not Eligible,Not Eligible
+140420,664,0,468458,1,Eligible,Eligible
+107922,797,0,219530,1,Eligible,Eligible
+118116,588,0,699969,2,Not Eligible,Not Eligible
+59353,740,0,212993,2,Eligible,Eligible
+35795,846,0,109500,1,Eligible,Eligible
+25600,427,0,307803,2,Not Eligible,Not Eligible
+95353,584,2,525828,0,Not Eligible,Not Eligible
+48251,643,0,903900,1,Not Eligible,Not Eligible
+121042,522,1,614983,1,Eligible,Eligible
+113016,350,1,206951,1,Eligible,Eligible
+106188,416,0,128077,1,Eligible,Eligible
+106027,577,0,542148,2,Not Eligible,Not Eligible
+22368,700,2,307354,1,Not Eligible,Not Eligible
+58467,847,0,898923,1,Eligible,Eligible
+137858,521,0,530808,1,Eligible,Eligible
+71407,757,1,641343,0,Eligible,Eligible
+32688,623,0,863349,1,Not Eligible,Not Eligible
+64425,374,2,792800,0,Not Eligible,Not Eligible
+36371,584,0,776728,1,Not Eligible,Not Eligible
+27805,525,0,813461,1,Not Eligible,Not Eligible
+39457,394,0,640706,1,Not Eligible,Not Eligible
+26102,766,0,877424,1,Eligible,Eligible
+113714,831,0,752495,1,Eligible,Eligible
+141626,528,0,92727,0,Not Eligible,Not Eligible
+111412,813,0,528356,1,Eligible,Eligible
+81087,799,0,434073,1,Eligible,Eligible
+55735,321,2,84540,1,Not Eligible,Eligible
+40358,328,1,756673,2,Not Eligible,Not Eligible
+43049,339,0,938403,2,Not Eligible,Not Eligible
+72992,649,0,980370,1,Not Eligible,Not Eligible
+132181,623,0,537030,0,Not Eligible,Not Eligible
+129109,659,0,180351,2,Eligible,Eligible
+136381,508,0,243069,1,Eligible,Eligible
+112093,704,0,391207,1,Eligible,Eligible
+131488,820,1,822791,1,Eligible,Eligible
+114841,792,1,158042,2,Eligible,Eligible
+33500,319,0,647690,1,Not Eligible,Not Eligible
+41732,694,0,849482,2,Not Eligible,Not Eligible
+139180,505,0,482680,0,Not Eligible,Not Eligible
+81476,823,0,785430,1,Eligible,Eligible
+141637,817,0,749309,1,Eligible,Eligible
+86235,354,0,473332,0,Not Eligible,Not Eligible
+25801,515,0,102428,1,Not Eligible,Not Eligible
+123214,560,1,115942,1,Eligible,Eligible
+83734,695,0,370752,2,Eligible,Eligible
+65543,816,0,109234,0,Eligible,Eligible
+22200,587,0,84773,2,Not Eligible,Not Eligible
+98781,525,0,850554,0,Not Eligible,Not Eligible
+92369,824,0,529083,0,Eligible,Eligible
+52745,453,1,449371,2,Not Eligible,Eligible
+81434,493,1,104575,0,Not Eligible,Not Eligible
+25486,310,0,619383,1,Not Eligible,Not Eligible
+63525,591,1,782763,0,Not Eligible,Not Eligible
+138937,628,0,435893,1,Eligible,Eligible
+39190,638,1,608158,1,Not Eligible,Not Eligible
+102798,347,0,334334,1,Eligible,Eligible
+63001,465,0,744335,1,Not Eligible,Not Eligible
+41677,758,0,790389,0,Not Eligible,Not Eligible
+31111,584,0,94760,0,Not Eligible,Not Eligible
+92615,565,0,545164,1,Eligible,Eligible
+27543,815,0,980106,0,Not Eligible,Not Eligible
+95450,810,0,60207,1,Eligible,Eligible
+111792,587,1,442573,1,Eligible,Eligible
+48693,377,0,921808,1,Not Eligible,Not Eligible
+94740,452,1,515226,0,Not Eligible,Not Eligible
+134585,605,0,448172,1,Eligible,Eligible
+141305,753,0,266204,0,Eligible,Eligible
+75766,776,2,227241,1,Eligible,Eligible
+126357,455,0,347142,2,Not Eligible,Not Eligible
+86617,542,0,621441,1,Eligible,Not Eligible
+137930,439,0,299415,1,Eligible,Eligible
+113426,558,0,268401,1,Eligible,Eligible
+85697,765,1,471280,1,Eligible,Eligible
+41357,799,1,551590,0,Not Eligible,Not Eligible
+92082,836,2,141218,0,Eligible,Eligible
+97575,385,2,573406,2,Not Eligible,Not Eligible
+92694,801,0,523958,1,Eligible,Eligible
+55909,744,1,186213,1,Eligible,Eligible
+109912,837,2,993927,1,Eligible,Eligible
+46092,781,0,80099,0,Eligible,Eligible
+111906,501,0,186643,1,Eligible,Eligible
+105314,806,1,560470,1,Eligible,Eligible
+139176,847,1,390615,0,Eligible,Eligible
+47350,700,1,855581,1,Eligible,Eligible
+137858,397,0,436721,0,Not Eligible,Not Eligible
+42299,560,0,527266,1,Not Eligible,Not Eligible
+71991,330,0,637515,1,Not Eligible,Not Eligible
+103763,478,0,290016,1,Eligible,Eligible
+55222,410,0,655730,1,Not Eligible,Not Eligible
+144046,522,0,188731,0,Not Eligible,Not Eligible
+115435,627,1,105745,1,Eligible,Eligible
+148142,406,1,353664,1,Eligible,Eligible
+63585,471,1,546762,1,Not Eligible,Not Eligible
+84820,404,2,176060,1,Not Eligible,Eligible
+50354,660,0,396184,1,Eligible,Eligible
+97505,481,0,264764,1,Eligible,Eligible
+100077,749,0,620387,1,Eligible,Eligible
+142073,649,0,738152,2,Not Eligible,Not Eligible
+53591,680,2,407246,2,Not Eligible,Not Eligible
+62107,300,0,606690,0,Not Eligible,Eligible
+119522,560,0,290891,1,Eligible,Eligible
+70343,507,0,932174,0,Not Eligible,Not Eligible
+23051,550,0,852673,0,Not Eligible,Not Eligible
+91180,838,0,678889,1,Eligible,Eligible
+132893,723,0,903284,1,Eligible,Eligible
+93666,419,0,351014,0,Not Eligible,Not Eligible
+122795,513,2,594279,2,Not Eligible,Not Eligible
+143633,316,0,987562,0,Not Eligible,Not Eligible
+139156,505,0,608963,1,Eligible,Eligible
+125787,516,0,742924,0,Not Eligible,Not Eligible
+41918,641,0,589660,2,Not Eligible,Not Eligible
+52635,328,0,891675,1,Not Eligible,Not Eligible
+134821,383,1,135774,1,Eligible,Eligible
+86387,823,1,552648,0,Eligible,Eligible
+59504,784,0,598333,0,Eligible,Eligible
+89678,739,0,487985,2,Eligible,Eligible
+29435,717,0,365018,1,Eligible,Eligible
+144243,380,0,971134,0,Not Eligible,Not Eligible
+102948,745,2,378768,1,Eligible,Eligible
+87121,342,0,885083,1,Not Eligible,Not Eligible
+43328,584,1,295739,1,Not Eligible,Not Eligible
+138324,385,0,732416,1,Eligible,Eligible
+102074,471,0,602439,1,Eligible,Eligible
+99634,698,0,617597,2,Eligible,Eligible
+44466,643,0,536904,1,Not Eligible,Not Eligible
+64064,352,1,559452,1,Not Eligible,Not Eligible
+97189,819,2,939497,1,Eligible,Eligible
+55777,528,0,864038,1,Not Eligible,Not Eligible
+91726,812,0,510115,0,Eligible,Eligible
+28792,734,1,289779,0,Not Eligible,Eligible
+49703,311,0,545010,0,Not Eligible,Not Eligible
+85417,467,2,920820,1,Not Eligible,Not Eligible
+92124,631,0,589376,0,Not Eligible,Not Eligible
+108614,460,0,898800,2,Not Eligible,Not Eligible
+87863,405,0,112551,0,Not Eligible,Not Eligible
+147723,300,0,998158,1,Eligible,Eligible
+20206,522,0,582356,0,Not Eligible,Not Eligible
+131217,341,1,234626,0,Not Eligible,Not Eligible
+129953,495,0,64743,0,Not Eligible,Not Eligible
+21062,524,0,487100,1,Not Eligible,Not Eligible
