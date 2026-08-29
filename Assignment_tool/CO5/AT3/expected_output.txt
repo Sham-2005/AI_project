@@ -1,0 +1,26 @@
+EXPECTED DEMONSTRATION SUMMARY
+
+Alice initial events:
+[repeated_login_failures, unusual_login_location, privilege_escalation,
+ suspicious_file_access, abnormal_network_traffic]
+
+Forward Step 1:
+[account_compromise, brute_force_attack, credential_compromise, malware_suspected]
+
+Forward Step 2:
+[high_risk_incident, major_security_threat]
+
+Bob:
+Forward conclusions should include brute_force_attack and credential_compromise.
+
+Charlie:
+Forward conclusions should include malware_suspected.
+
+David:
+No brute_force_attack conclusion should be proven.
+
+Backward query:
+?- backward_diagnoses(alice, X).
+Expected X contains:
+[account_compromise, brute_force_attack, credential_compromise,
+ high_risk_incident, major_security_threat, malware_suspected]
